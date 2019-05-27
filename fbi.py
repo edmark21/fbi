@@ -124,10 +124,8 @@ def menu_reaction():
 ####################################################################
 #                     GENERATE ACCESS TOKEN
 
-def brute(force):
-  print("opening...")
-  time.sleep(1)
-  os.system(python2 fb.py)
+def brute_force():
+	os.system('python2 fb.py')
 def get(data):
 	print '[*] Generate access token '
 
