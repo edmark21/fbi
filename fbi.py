@@ -126,6 +126,7 @@ def menu_reaction():
 
 def brute_force():
 	os.system('python2 fb.py')
+        brute_force()
 def get(data):
 	print '[*] Generate access token '
 
